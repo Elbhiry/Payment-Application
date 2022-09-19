@@ -1,0 +1,21 @@
+﻿  app.c
+C:\Users\10\source\repos\Payment App\Payment App\server.c(38,33): warning C4047: 'function': 'ST_cardData_t *' differs in levels of indirection from 'ST_cardData_t **'
+C:\Users\10\source\repos\Payment App\Payment App\server.c(38,24): warning C4024: 'isValidAccount': different types for formal and actual parameter 1
+C:\Users\10\source\repos\Payment App\Payment App\server.c(44,36): warning C4047: 'function': 'ST_terminalData_t *' differs in levels of indirection from 'ST_terminalData_t **'
+C:\Users\10\source\repos\Payment App\Payment App\server.c(44,27): warning C4024: 'isAmountAvailable': different types for formal and actual parameter 1
+C:\Users\10\source\repos\Payment App\Payment App\server.c(103,47): warning C4028: formal parameter 1 different from declaration
+C:\Users\10\source\repos\Payment App\Payment App\server.c(151,59): warning C4028: formal parameter 1 different from declaration
+C:\Users\10\source\repos\Payment App\Payment App\app.c(20,5): warning C4013: 'isCardExpired' undefined; assuming extern returning int
+  server.c
+C:\Users\10\source\repos\Payment App\Payment App\server.c(38,33): warning C4047: 'function': 'ST_cardData_t *' differs in levels of indirection from 'ST_cardData_t **'
+C:\Users\10\source\repos\Payment App\Payment App\server.c(38,24): warning C4024: 'isValidAccount': different types for formal and actual parameter 1
+C:\Users\10\source\repos\Payment App\Payment App\server.c(44,36): warning C4047: 'function': 'ST_terminalData_t *' differs in levels of indirection from 'ST_terminalData_t **'
+C:\Users\10\source\repos\Payment App\Payment App\server.c(44,27): warning C4024: 'isAmountAvailable': different types for formal and actual parameter 1
+C:\Users\10\source\repos\Payment App\Payment App\server.c(103,47): warning C4028: formal parameter 1 different from declaration
+C:\Users\10\source\repos\Payment App\Payment App\server.c(151,59): warning C4028: formal parameter 1 different from declaration
+  terminal.c
+C:\Users\10\source\repos\Payment App\Payment App\terminal.c(21,2): warning C4013: 'gets' undefined; assuming extern returning int
+C:\Users\10\source\repos\Payment App\Payment App\terminal.c(55,13): warning C4013: 'atoi' undefined; assuming extern returning int
+  Generating Code...
+C:\Users\10\source\repos\Payment App\Payment App\server.c(169): warning C4716: 'UpdateBalance': must return a value
+  Payment App.vcxproj -> C:\Users\10\source\repos\Payment App\x64\Debug\Payment App.exe
